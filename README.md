@@ -6,7 +6,7 @@ Acceptance Criteria
 
 * Use an HTML validation service to ensure that each page has valid HTML.
 
-### Minimum Requirements
+Minimum Requirements
 
 * Functional, deployed application
 
