@@ -4,9 +4,8 @@
   <title>My Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -15,48 +14,76 @@
 <body>
 
 <!--Navigation Start-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        
-            <a class="navbar-brand" href="#">ML Portfolio</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-      </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Manpreet Lakhan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
 <!--Navigation End-->
 
 <!--Portfolio-->
-<div class="container" id="portfolio">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h2>Portfolio</h2>
-            <div class="row">
-                <div class="col-md-6">
-                        <img src="https://coolkidproblems.com/wp-content/uploads/2017/06/coming-soon-1.jpg" alt="Portfolio 1" class="img-thumbnail" height="300" width="300">
-                        <img src="https://coolkidproblems.com/wp-content/uploads/2017/06/coming-soon-1.jpg" alt="Portfolio 3" class="img-thumbnail" height="300" width="300">
-                        <img src="https://coolkidproblems.com/wp-content/uploads/2017/06/coming-soon-1.jpg" alt="Portfolio 5" class="img-thumbnail" height="300" width="300">
-                </div>
-                <div class="col-md-6">
-                        <img src="https://coolkidproblems.com/wp-content/uploads/2017/06/coming-soon-1.jpg" alt="Portfolio 2" class="img-thumbnail" height="300" width="300">
-                        <img src="https://coolkidproblems.com/wp-content/uploads/2017/06/coming-soon-1.jpg" alt="Portfolio 4" class="img-thumbnail" height="300" width="300">
-                </div>
-            </div>
-            </div>
-        </div>
+<div class="row">
+  <div class="side-content-sm"></div>
+  <div class="main-content-lg">
+    <div class="content-header">
+      <a class="anchor" name="portfolio"></a>
+      <h2></h2>
     </div>
+    <div class="portfolioSection">
+      <!-- Team project  -->
+      <div class="portfolioRow">
+        <div class="portfolioImage">
+          <img src="Assets/moviesontherocks.jpg">
+        </div>
+        <div class="portfolioDescription">
+          <h4> Movies on the Rocks </h4>
+          <p> A web application that shakes up your movie night by recommending beverages based on the flicks you're
+            watching, so you feel part of all the action!</p>
+          <a href="https://github.com/mklakhan/movies-on-the-rocks">Link to GitHub </a>
+        </div>
+      </div>
+      <!-- Individual project 1 -->
+      <div class="portfolioRow">
+        <div class="portfolioImage">
+          <img src="Assets/savedbythebellquiz.jpg">
+        </div>
+        <div class="portfolioDescription">
+          <h4> Saved by the Bell Trivia </h4>
+          <p> A timed quiz based on the show <i>Saved by the Bell</i>. Stores high scores so progress can be gauged.
+          </p>
+          <a href="https://github.com/mklakhan/code-quiz">Link to GitHub </a>
+        </div>
+      </div>
+      <!-- Individual project 2 -->
+      <div class="portfolioRow">
+        <div class="portfolioImage">
+          <img src="Assets/dailyplanner.jpg">
+        </div>
+        <div class="portfolioDescription">
+          <h4> Dayplanner Application </h4>
+          <p> A simple calendar application for scheduling your work day.</p>
+          <a href="hhttps://github.com/mklakhan/dayplanner">Link to GitHub</a>
+        </div>
+      </div>
+
+  </div>
 </div>
 
-<!-- Footer -->
-
-<footer class="mt-auto"></footer>
-
 </body>
+
+<!-- Footer -->
+<footer class="navbar fixed-bottom navbar-dark bg-dark">
+  <span class="navbar-text">© ML 2020</span>
+</footer>
+
 </html>
